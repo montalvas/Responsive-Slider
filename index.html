@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider feature</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="slider">
+                <input type="radio" name="slide" id="i1" checked>
+                <input type="radio" name="slide" id="i2">
+                <input type="radio" name="slide" id="i3">
+                <input type="radio" name="slide" id="i4">
+
+                <div class="slide-img" id="one">
+                    <img src="img/slide1.jpg" alt="">
+                    <label for="i4" class="prev"></label>
+                    <label for="i2" class="next"></label>
+                </div><!--slide1-->
+
+                <div class="slide-img" id="two">
+                    <img src="img/slide2.jpg" alt="">
+                    <label for="i1" class="prev"></label>
+                    <label for="i3" class="next"></label>
+                </div><!--slide2-->
+
+                <div class="slide-img" id="three">
+                    <img src="img/slide3.jpg" alt="">
+                    <label for="i2" class="prev"></label>
+                    <label for="i4" class="next"></label>
+                </div><!--slide3-->
+
+                <div class="slide-img" id="four">
+                    <img src="img/slide4.jpg" alt="">
+                    <label for="i3" class="prev"></label>
+                    <label for="i1" class="next"></label>
+                </div><!--slide4-->
+
+                <div class="bullets">
+                    <label id="bullet1" class="bullet" for="i1"></label>
+                    <label id="bullet2" class="bullet" for="i2"></label>
+                    <label id="bullet3" class="bullet" for="i3"></label>
+                    <label id="bullet4" class="bullet" for="i4"></label>
+                </div><!--bullets-->
+            </div><!--box-->
+        </div><!--container-->
+    </header>
+</body>
+</html>
